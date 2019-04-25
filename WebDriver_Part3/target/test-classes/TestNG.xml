@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="username" value="shubhamsharma99" />
+		<parameter name="password" value="my_father123$" />
+		<classes>
+			<class name="com.epam.github.test.GitHubTest" />
+			<methods>
+				<include name="launchGitHUbTest" />
+				<include name="LoginTest" />
+				<include name="UpdateProfileTest" />
+				<include name="javaScriptExecuterTest" />
+				<include name="logOutTest" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

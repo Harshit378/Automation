@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.epam.tests.TestNgListners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="password" value="my_father123$"/>
+    <parameter name="username" value="shubhamsharma99"/>
+    <classes>
+      <class name="com.epam.tests.GitHubAutomationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="logoutTest" invocation-numbers="0"/>
+          <include name="editProfileTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.tests.GitHubAutomationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

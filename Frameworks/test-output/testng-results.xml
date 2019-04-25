@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50296" started-at="2017-04-28T09:04:01Z" finished-at="2017-04-28T09:04:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50296" started-at="2017-04-28T09:04:01Z" finished-at="2017-04-28T09:04:51Z">
+      <class name="tests.GitHubAutomationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="setup" is-config="true" duration-ms="2903" started-at="2017-04-28T14:34:01Z" finished-at="2017-04-28T14:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="loginTest" duration-ms="11846" started-at="2017-04-28T14:34:03Z" description="This test method checks whether the user is successfully logged in" finished-at="2017-04-28T14:34:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my_father123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="teardown" is-config="true" duration-ms="777" started-at="2017-04-28T14:34:15Z" finished-at="2017-04-28T14:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="setup" is-config="true" duration-ms="2414" started-at="2017-04-28T14:34:16Z" finished-at="2017-04-28T14:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editProfileTest(java.lang.String, java.lang.String)[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="editProfileTest" duration-ms="14002" started-at="2017-04-28T14:34:19Z" description="This test method checks whether the user profile is successfully updated" finished-at="2017-04-28T14:34:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my_father123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfileTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="teardown" is-config="true" duration-ms="748" started-at="2017-04-28T14:34:33Z" finished-at="2017-04-28T14:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="setup" is-config="true" duration-ms="2588" started-at="2017-04-28T14:34:33Z" finished-at="2017-04-28T14:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutTest(java.lang.String, java.lang.String)[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="logoutTest" duration-ms="14150" started-at="2017-04-28T14:34:36Z" finished-at="2017-04-28T14:34:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my_father123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.GitHubAutomationTest@18be83e4]" name="teardown" is-config="true" duration-ms="848" started-at="2017-04-28T14:34:50Z" finished-at="2017-04-28T14:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GitHubAutomationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

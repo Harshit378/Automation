@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68077" started-at="2017-08-10T09:50:05Z" finished-at="2017-08-10T09:51:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68077" started-at="2017-08-10T09:50:05Z" finished-at="2017-08-10T09:51:13Z">
+      <class name="com.epam.tests.GitHubAutomationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="setup" is-config="true" duration-ms="6970" started-at="2017-08-10T15:20:05Z" finished-at="2017-08-10T15:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="loginTest" duration-ms="12384" started-at="2017-08-10T15:20:12Z" description="This test method checks whether the user is successfully logged in" finished-at="2017-08-10T15:20:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my_father123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="teardown" is-config="true" duration-ms="2568" started-at="2017-08-10T15:20:24Z" finished-at="2017-08-10T15:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="setup" is-config="true" duration-ms="2419" started-at="2017-08-10T15:20:27Z" finished-at="2017-08-10T15:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editProfileTest(java.lang.String, java.lang.String)[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="editProfileTest" duration-ms="23160" started-at="2017-08-10T15:20:29Z" description="This test method checks whether the user profile is successfully updated" finished-at="2017-08-10T15:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my_father123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfileTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="teardown" is-config="true" duration-ms="870" started-at="2017-08-10T15:20:53Z" finished-at="2017-08-10T15:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="setup" is-config="true" duration-ms="2445" started-at="2017-08-10T15:20:54Z" finished-at="2017-08-10T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutTest(java.lang.String, java.lang.String)[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="logoutTest" duration-ms="15149" started-at="2017-08-10T15:20:56Z" finished-at="2017-08-10T15:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my_father123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.epam.tests.GitHubAutomationTest@52a86356]" name="teardown" is-config="true" duration-ms="874" started-at="2017-08-10T15:21:12Z" finished-at="2017-08-10T15:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.epam.tests.GitHubAutomationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

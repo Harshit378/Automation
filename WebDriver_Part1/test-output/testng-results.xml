@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26526" started-at="2017-04-20T11:33:15Z" finished-at="2017-04-20T11:33:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26526" started-at="2017-04-20T11:33:15Z" finished-at="2017-04-20T11:33:42Z">
+      <class name="com.epam.publicmailtests.GmailTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="setup" is-config="true" duration-ms="2646" started-at="2017-04-20T17:03:15Z" finished-at="2017-04-20T17:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchAppTest()[pri:0, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="launchAppTest" duration-ms="4307" started-at="2017-04-20T17:03:18Z" description="This test methods checks whether the application is successfully launched" finished-at="2017-04-20T17:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="loginTest" duration-ms="7395" started-at="2017-04-20T17:03:22Z" depends-on-methods="com.epam.publicmailtests.GmailTest.launchAppTest" finished-at="2017-04-20T17:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamsharma99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swatijain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="composeDraftTest()[pri:2, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="composeDraftTest" duration-ms="2406" started-at="2017-04-20T17:03:30Z" depends-on-methods="com.epam.publicmailtests.GmailTest.loginTest" finished-at="2017-04-20T17:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeDraftTest -->
+        <test-method status="PASS" signature="draftContentTest()[pri:3, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="draftContentTest" duration-ms="646" started-at="2017-04-20T17:03:32Z" depends-on-methods="com.epam.publicmailtests.GmailTest.composeDraftTest" finished-at="2017-04-20T17:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draftContentTest -->
+        <test-method status="PASS" signature="sendMailTest()[pri:4, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="sendMailTest" duration-ms="5724" started-at="2017-04-20T17:03:33Z" depends-on-methods="com.epam.publicmailtests.GmailTest.draftContentTest" finished-at="2017-04-20T17:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMailTest -->
+        <test-method status="PASS" signature="logOutTest()[pri:5, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="logOutTest" duration-ms="2184" started-at="2017-04-20T17:03:39Z" depends-on-methods="com.epam.publicmailtests.GmailTest.sendMailTest" finished-at="2017-04-20T17:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.epam.publicmailtests.GmailTest@53b32d7]" name="teardown" is-config="true" duration-ms="1189" started-at="2017-04-20T17:03:41Z" finished-at="2017-04-20T17:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.epam.publicmailtests.GmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="username" value="shubhamsharma99" />
+		<parameter name="password" value="my_father123$" />
+		<classes>
+			<class name="tests.GitHubAutomationTest" />
+			<methods>
+				<include name="loginTest" />
+				<include name="editProfileTest" /> 
+				<include name="logoutTest" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

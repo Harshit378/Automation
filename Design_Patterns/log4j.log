@@ -1,0 +1,36 @@
+2017-05-12 17:35:11 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-05-12 17:35:24 INFO  TestNgListners:31 - Captured screenshot for failed test: loginTest
+2017-05-12 17:35:24 INFO  ConfigurationTest:23 - In Teardown,destroying the objects
+2017-05-12 17:35:26 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-05-16 12:33:21 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-05-16 12:33:42 INFO  Steps:22 - User logging in on GitHub
+2017-05-16 12:33:42 INFO  GitHubAutomationTest:21 - User logged in successfully
+2017-05-16 12:33:42 INFO  TestNgListners:47 - Captured screenshot for passed test: loginTest
+2017-05-16 12:33:42 INFO  ConfigurationTest:23 - In Teardown,destroying the objects
+2017-05-16 12:33:43 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-05-16 12:33:59 INFO  Steps:22 - User logging in on GitHub
+2017-05-16 12:34:02 INFO  Steps:43 - User is editing profile
+2017-05-16 12:34:02 INFO  GitHubAutomationTest:31 - profile is updated successfully
+2017-05-16 12:34:02 INFO  TestNgListners:47 - Captured screenshot for passed test: editProfileTest
+2017-05-16 12:34:02 INFO  ConfigurationTest:23 - In Teardown,destroying the objects
+2017-05-16 12:34:03 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-05-16 12:34:17 INFO  Steps:22 - User logging in on GitHub
+2017-05-16 12:34:19 INFO  GitHubAutomationTest:40 - user logged out successfully
+2017-05-16 12:34:20 INFO  TestNgListners:47 - Captured screenshot for passed test: logoutTest
+2017-05-16 12:34:20 INFO  ConfigurationTest:23 - In Teardown,destroying the objects
+2017-08-10 15:20:05 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-08-10 15:20:24 INFO  Steps:22 - User logging in on GitHub
+2017-08-10 15:20:24 INFO  GitHubAutomationTest:21 - User logged in successfully
+2017-08-10 15:20:24 INFO  TestNgListners:47 - Captured screenshot for passed test: loginTest
+2017-08-10 15:20:24 INFO  ConfigurationTest:23 - In Teardown,destroying the objects
+2017-08-10 15:20:27 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-08-10 15:20:49 INFO  Steps:22 - User logging in on GitHub
+2017-08-10 15:20:53 INFO  Steps:43 - User is editing profile
+2017-08-10 15:20:53 INFO  GitHubAutomationTest:31 - profile is updated successfully
+2017-08-10 15:20:53 INFO  TestNgListners:47 - Captured screenshot for passed test: editProfileTest
+2017-08-10 15:20:53 INFO  ConfigurationTest:23 - In Teardown,destroying the objects
+2017-08-10 15:20:54 INFO  ConfigurationTest:15 - In Setup,setting up objects
+2017-08-10 15:21:08 INFO  Steps:22 - User logging in on GitHub
+2017-08-10 15:21:11 INFO  GitHubAutomationTest:40 - user logged out successfully
+2017-08-10 15:21:12 INFO  TestNgListners:47 - Captured screenshot for passed test: logoutTest
+2017-08-10 15:21:12 INFO  ConfigurationTest:23 - In Teardown,destroying the objects

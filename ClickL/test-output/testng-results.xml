@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13985" started-at="2017-07-21T09:51:51Z" finished-at="2017-07-21T09:52:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13985" started-at="2017-07-21T09:51:51Z" finished-at="2017-07-21T09:52:05Z">
+      <class name="com.clicklabs.test.TrivagoTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.clicklabs.test.TrivagoTest@14acaea5]" name="setup" is-config="true" duration-ms="3159" started-at="2017-07-21T15:21:51Z" finished-at="2017-07-21T15:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.clicklabs.test.TrivagoTest@14acaea5]" name="testMethod1" duration-ms="6170" started-at="2017-07-21T15:21:54Z" finished-at="2017-07-21T15:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod2(java.lang.String, java.lang.String)[pri:0, instance:com.clicklabs.test.TrivagoTest@14acaea5]" name="testMethod2" duration-ms="3840" started-at="2017-07-21T15:22:00Z" finished-at="2017-07-21T15:22:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aish29sharma@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.clicklabs.test.TrivagoTest@14acaea5]" name="teardown" is-config="true" duration-ms="805" started-at="2017-07-21T15:22:04Z" finished-at="2017-07-21T15:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.clicklabs.test.TrivagoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

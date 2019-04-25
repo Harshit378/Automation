@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41" started-at="2017-08-22T06:50:05Z" finished-at="2017-08-22T06:50:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41" started-at="2017-08-22T06:50:05Z" finished-at="2017-08-22T06:50:05Z">
+      <class name="com.epam.unittests.MulAndDivTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="6" started-at="2017-08-22T12:20:05Z" description="Method will be invoked before executing tests" finished-at="2017-08-22T12:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiplicationTest(double, double, double)[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="multiplicationTest" duration-ms="16" started-at="2017-08-22T12:20:05Z" data-provider="multiplicationDataProvider" finished-at="2017-08-22T12:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method status="PASS" signature="divisionTest(long, long, long)[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="divisionTest" duration-ms="16" started-at="2017-08-22T12:20:05Z" data-provider="divisionDataProvider" finished-at="2017-08-22T12:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method status="PASS" signature="multiplicationTest(double, double, double)[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="multiplicationTest" duration-ms="1" started-at="2017-08-22T12:20:05Z" data-provider="multiplicationDataProvider" finished-at="2017-08-22T12:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method status="PASS" signature="divisionTest(long, long, long)[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="divisionTest" duration-ms="1" started-at="2017-08-22T12:20:05Z" data-provider="divisionDataProvider" finished-at="2017-08-22T12:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method status="PASS" signature="multiplicationTest(double, double, double)[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="multiplicationTest" duration-ms="1" started-at="2017-08-22T12:20:05Z" data-provider="multiplicationDataProvider" finished-at="2017-08-22T12:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-29.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method status="PASS" signature="divisionTest(long, long, long)[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="divisionTest" duration-ms="1" started-at="2017-08-22T12:20:05Z" data-provider="divisionDataProvider" finished-at="2017-08-22T12:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.unittests.MulAndDivTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-08-22T12:20:05Z" description="Method will be invoked after executing tests" finished-at="2017-08-22T12:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.unittests.MulAndDivTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

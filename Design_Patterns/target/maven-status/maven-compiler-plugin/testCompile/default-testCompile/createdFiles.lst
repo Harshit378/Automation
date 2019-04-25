@@ -1,0 +1,14 @@
+com\epam\pages\UserProfilePage.class
+com\epam\pages\AbstractPage.class
+com\epam\factorypattern\WebDriverCreator.class
+com\epam\factorypattern\ChromeDriverCreator.class
+com\epam\utilities\Screenshot.class
+com\epam\utilities\HighlighterAndWait.class
+com\epam\factorypattern\FirefoxDriverCreator.class
+com\epam\tests\GitHubAutomationTest.class
+com\epam\businessobjects\User.class
+com\epam\singletonpattern\WebDriverManager.class
+com\epam\steps\Steps.class
+com\epam\tests\TestNgListners.class
+com\epam\tests\ConfigurationTest.class
+com\epam\pages\LoginPage.class

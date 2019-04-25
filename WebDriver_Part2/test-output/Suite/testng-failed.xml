@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="swatijain"/>
+    <parameter name="username" value="shubhamsharma99@gmail.com"/>
+    <classes>
+      <class name="com.epam.pages.test.GmailTest">
+        <methods>
+          <include name="composeAndDraftMailTest"/>
+          <include name="verifyDraftSubject"/>
+          <include name="sendDraftTest"/>
+          <include name="setup"/>
+          <include name="verifyDraftRecipient"/>
+          <include name="launchAppTest"/>
+          <include name="logOuttest"/>
+          <include name="teardown"/>
+          <include name="sentMailTest"/>
+          <include name="verifyDraftBody"/>
+        </methods>
+      </class> <!-- com.epam.pages.test.GmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

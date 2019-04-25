@@ -1,0 +1,5 @@
+com\epam\app\reusable\WebDriverManager.class
+com\epam\app\reusable\Constants.class
+com\epam\app\pages\DraftsPage.class
+com\epam\app\pages\LoginPage.class
+com\epam\app\pages\LandingPage.class

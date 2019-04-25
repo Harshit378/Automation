@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="qwerty"/>
+    <parameter name="email" value="aish29sharma@gmail.com"/>
+    <classes>
+      <class name="com.clicklabs.test.TrivagoTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.clicklabs.test.TrivagoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

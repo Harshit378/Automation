@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="email" value="aish29sharma@gmail.com" />
+		<parameter name="password" value="qwerty" />
+		<classes>
+			<class name="com.clicklabs.test.TrivagoTest" />
+			<methods>
+			<include name="testMethod1" />
+		 	<include name="testMethod2" />
+			</methods>>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

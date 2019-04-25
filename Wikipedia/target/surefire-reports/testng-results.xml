@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="11631" started-at="2017-10-18T09:47:34Z" finished-at="2017-10-18T09:47:46Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="11631" started-at="2017-10-18T09:47:34Z" finished-at="2017-10-18T09:47:46Z">
+      <class name="com.wikipedia.tests.WikiPediaTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wikipedia.tests.WikiPediaTest@4e04a765]" name="setup" is-config="true" duration-ms="3024" started-at="2017-10-18T15:17:34Z" finished-at="2017-10-18T15:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOOPlink()[pri:0, instance:com.wikipedia.tests.WikiPediaTest@4e04a765]" name="clickOOPlink" duration-ms="7602" started-at="2017-10-18T15:17:37Z" finished-at="2017-10-18T15:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOOPlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.wikipedia.tests.WikiPediaTest@4e04a765]" name="teardown" is-config="true" duration-ms="991" started-at="2017-10-18T15:17:45Z" finished-at="2017-10-18T15:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.wikipedia.tests.WikiPediaTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
