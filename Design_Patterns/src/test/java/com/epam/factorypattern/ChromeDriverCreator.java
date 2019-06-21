@@ -14,9 +14,6 @@ public class ChromeDriverCreator extends WebDriverCreator {
 				PROJECT_ROOT_PATH + "/src/main/resources/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		return driver;
-		
-		
-
 	}
 
 }

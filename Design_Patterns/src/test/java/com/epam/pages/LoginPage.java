@@ -8,11 +8,35 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.epam.utilities.HighlighterAndWait;
 
-
-
-
-
 public class LoginPage extends AbstractPage {
+
+	public static WebElement getUserName() {
+		return userName;
+	}
+
+	public static WebElement getPassWord() {
+		return passWord;
+	}
+
+	public static WebElement getSignIn() {
+		return signIn;
+	}
+
+	public static WebElement getAvatarImg() {
+		return avatarImg;
+	}
+
+	public static WebElement getCheckName() {
+		return checkName;
+	}
+
+	public static WebElement getSignInLink() {
+		return signInLink;
+	}
+
+	public String getURL() {
+		return URL;
+	}
 
 	@FindBy(id = "login_field")
 	private static WebElement userName;
@@ -46,10 +70,9 @@ public class LoginPage extends AbstractPage {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
-	public UserProfilePage login(String username, String password) {;
-		
+	public UserProfilePage login(String username, String password) {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
+
 		String bgColorUserName = userName.getCssValue("backgroundColor");
 		String bgColorPassWord = userName.getCssValue("backgroundColor");
 
@@ -70,7 +93,6 @@ public class LoginPage extends AbstractPage {
 	public String getLoggedInUsername() {
 		avatarImg.click();
 		return checkName.getText();
-		 
 
 	}
 }

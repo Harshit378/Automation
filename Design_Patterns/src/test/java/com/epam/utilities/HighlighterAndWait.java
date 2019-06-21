@@ -12,7 +12,7 @@ public  class HighlighterAndWait  {
 	
 	
 	public static void javaScriptHighlighter(WebElement element, String highlightColor, String defaultColor) {
-		WebDriver driver =  WebDriverManager.getWebDriverInstance();
+		WebDriver driver =  WebDriverManager.getWebDriverInstance("CHROME");
 		JavascriptExecutor jsExec = ((JavascriptExecutor) driver);
 
 		jsExec.executeScript("arguments[0].style.backgroundColor = '" + highlightColor + "'", element);
@@ -25,7 +25,7 @@ public  class HighlighterAndWait  {
 
 	}
 	public static WebElement explicitWait(int time, String locator) {
-		WebDriver driver =  WebDriverManager.getWebDriverInstance();
+		WebDriver driver =  WebDriverManager.getWebDriverInstance("CHROME");
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
 	}

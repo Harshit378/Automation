@@ -2,31 +2,29 @@ package com.epam.singletonpattern;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.BrowserType;
+
 import com.epam.factorypattern.ChromeDriverCreator;
 import com.epam.factorypattern.FirefoxDriverCreator;
 
 public class WebDriverManager {
 	private static WebDriver driver = null;
 
-	static WebDriverManager objDrivers = null;
-	private static String browserName = "CHROME";
-	//for maven test,vm arguments are throwing null
-	//private static String browserName = System.getProperty("browser");
+	// for maven test,vm arguments are throwing null
+	// private static String browserName = System.getProperty("browser");
 
 	private WebDriverManager() {
 	}
 
 	// singleTon pattern method
-	public static WebDriver getWebDriverInstance() {
+	public static WebDriver getWebDriverInstance(String s) {
 		if (driver == null) {
-			driver = launchAndReturnDriver();
+			driver = launchAndReturnDriver(s);
 		}
 		return driver;
 
 	}
 
-	public final static WebDriver launchAndReturnDriver() {
-
+	public final static WebDriver launchAndReturnDriver(String browserName) {
 		if (browserName.equalsIgnoreCase(BrowserType.CHROME)) {
 			driver = new ChromeDriverCreator().factoryMethodDriverLauncher();
 			return driver;

@@ -12,13 +12,12 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 
-
 import com.epam.singletonpattern.WebDriverManager;
 
 public class Screenshot {
-	
+
 	private String PROJECT_ROOT_PATH = System.getProperty("user.dir");
-	
+
 	public final static String getDate() {
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 		return df.format(new Date());
@@ -29,7 +28,7 @@ public class Screenshot {
 		return dtf.format(new Date());
 	}
 
-	public void captureScreenshot(ITestResult result)  {
+	public void captureScreenshot(ITestResult result) {
 		String methodName = result.getName().toString().trim();
 		String currentDir = PROJECT_ROOT_PATH + "/target/" + new File("Test Screenshots");
 
@@ -41,13 +40,12 @@ public class Screenshot {
 
 		File f1 = new File(finalPath);
 		f1.mkdir();
-		WebDriver driver =  WebDriverManager.getWebDriverInstance();
+		WebDriver driver = WebDriverManager.getWebDriverInstance("CHROME");
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String screenshotPath = f1 + "\\" + screenshotNameWithTimeStamp + "_" + methodName + ".jpeg";
 		try {
 			FileUtils.copyFile(scrFile, new File(screenshotPath));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

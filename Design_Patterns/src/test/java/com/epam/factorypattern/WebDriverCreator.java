@@ -7,5 +7,9 @@ public abstract class WebDriverCreator {
 
 	public abstract WebDriver factoryMethodDriverLauncher();
 	
+	public void printThis() {
+		System.out.println("Hello This is Abstract Class");
+	}
+	
 	
 }
